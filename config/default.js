@@ -28,6 +28,7 @@ module.exports = {
   KAFKA_CLIENT_CERT_KEY: process.env.KAFKA_CLIENT_CERT_KEY ?
     process.env.KAFKA_CLIENT_CERT_KEY.replace('\\n', '\n') : null,
   TC_ADMIN_TOKEN: process.env.TC_ADMIN_TOKEN,
+  BUS_API_AUTH_TOKEN: process.env.BUS_API_AUTH_TOKEN,
   TC_API_V5_BASE_URL: process.env.TC_API_V5_BASE_URL || 'https://api.topcoder-dev.com/v5',
   API_CONTEXT_PATH: process.env.API_CONTEXT_PATH || '/v5/notifications',
 };
